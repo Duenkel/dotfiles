@@ -33,7 +33,7 @@ add-zsh-hook chpwd load-nvmrc
 load-nvmrc
 
 # GO
-export GOPATH=$HOME/Developer/code/go
+export GOPATH=$HOME/Developer/go
 export PATH=$PATH:$GOPATH/bin
 
 eval "$(starship init zsh)"
