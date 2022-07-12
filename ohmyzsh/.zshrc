@@ -36,4 +36,7 @@ load-nvmrc
 export GOPATH=$HOME/Developer/go
 export PATH=$PATH:$GOPATH/bin
 
+# Python2 fix for macOS
+export PATH="${HOME}/.pyenv/shims:${PATH}"
+
 eval "$(starship init zsh)"

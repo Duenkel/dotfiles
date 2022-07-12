@@ -6,14 +6,16 @@
   "workbench.editor.showTabs": false,
   "workbench.tree.renderIndentGuides": "none",
   "workbench.tree.indent": 20,
+  "workbench.sideBar.location": "right",
+
   // EXPLORER
   "explorer.sortOrder": "type",
   "explorer.openEditors.visible": 0,
   "explorer.confirmDragAndDrop": false,
   "explorer.confirmDelete": false,
+
   // EDITOR
   "editor.suggestSelection": "first",
-  "editor.renderIndentGuides": false,
   "editor.fontFamily": "JetBrainsMono NF",
   "editor.fontLigatures": true,
   "editor.cursorStyle": "underline",
@@ -26,38 +28,45 @@
   "editor.minimap.enabled": false,
   "editor.formatOnSave": true,
   "editor.matchBrackets": "never",
+
   // BREADCRUMBS
   "breadcrumbs.enabled": false,
+
   // ZENMODE
-  "zenMode.centerLayout": false,
+  "zenMode.centerLayout": true,
   "zenMode.restore": true,
   "zenMode.hideLineNumbers": false,
   "zenMode.fullScreen": false,
+
   // FILE
   "files.autoSave": "onFocusChange",
   "files.trimTrailingWhitespace": true,
+
   // TERMINAL
   "terminal.integrated.fontFamily": "JetBrainsMono NF",
   "terminal.integrated.fontSize": 12,
   "terminal.integrated.cursorStyle": "underline",
   "terminal.integrated.tabs.enabled": false,
+
   // VS-INTELLICODE
   "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+
   // TODO-TREE
   "todo-tree.highlights.enabled": false,
+
   // GIT
   "git.enableSmartCommit": true,
+
   // GITLENS
   "gitlens.currentLine.enabled": false,
   "gitlens.hovers.currentLine.over": "line",
   "gitlens.codeLens.enabled": false,
   "gitlens.statusBar.enabled": false,
-  "gitlens.advanced.telemetry.enabled": false,
+
   // PRETTIER
   "prettier.singleQuote": true,
   "prettier.trailingComma": "es5",
-  // ESLINT
-  "eslint.format.enable": true,
+
   // JSON
   "[json]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
